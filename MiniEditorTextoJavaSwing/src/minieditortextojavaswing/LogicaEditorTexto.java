@@ -5,6 +5,7 @@
  */
 package minieditortextojavaswing;
 
+import java.awt.Font;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -91,7 +92,8 @@ public class LogicaEditorTexto {
         JTextArea textAreaPrincipal = ventanaPrincipal.getjTextAreaTexto();
         String fuente = textAreaPrincipal.getFont().getFontName();
         int tamanio = (int) ventanaPrincipal.getjSlider1().getValue();
-        //Font font = new Font(fuente, Font.SERIF, tamanio);
+        Font font = new Font("Tahoma", Font.PLAIN, tamanio);
+        textAreaPrincipal.setFont(font);
 
     }
 

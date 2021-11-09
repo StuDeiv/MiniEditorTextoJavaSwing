@@ -89,10 +89,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jSlider1.setMaximum(25);
+        jSlider1.setMaximum(40);
         jSlider1.setMinimum(10);
         jSlider1.setToolTipText("");
-        jSlider1.setValue(10);
+        jSlider1.setValue(11);
         jSlider1.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 jSlider1StateChanged(evt);
@@ -101,7 +101,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jLabel1.setText("Tamaño del texto");
 
-        jLabelTamanioTexto.setText("0");
+        jLabelTamanioTexto.setText("11");
 
         jLabel2.setText("Seleccione el archivo que quiere abrir:");
 
